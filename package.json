@@ -1,0 +1,31 @@
+{
+  "name": "discord-music-bot",
+  "version": "1.0.0",
+  "description": "An Open Source discord bot that will play music requests in a discord server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatelAbhay/discord-music-bot.git"
+  },
+  "author": {
+    "name": "Abhay Patel",
+    "email": "patel.abhay1@outlook.com",
+    "url": "https://github.com/PatelAbhay"
+  },
+  "contributors": [
+    {
+      "name": "Abhay Patel",
+      "url": "https://github.com/PatelAbhay"
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatelAbhay/discord-music-bot/issues"
+  },
+  "homepage": "https://github.com/PatelAbhay/discord-music-bot#readme",
+  "type": "module"
+}
