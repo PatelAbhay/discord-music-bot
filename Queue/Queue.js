@@ -10,6 +10,11 @@ export default class Queue {
     return this.head;
   }
 
+  // set head of queue
+  setHead(newHead) {
+    this.head = newHead;
+  }
+
   // clear queue
   clearList() {
     this.head = null;
@@ -41,7 +46,11 @@ export default class Queue {
   }
 
   // add song to the front of the queue
-  addToFront(songUrl) {}
+  addToFront(songUrl) {
+    const newHead = new QueueNode(songUrl);
+    newHead.setNext(this.getHead());
+    this.setHead(newHead);
+  }
 
   // removes a node with the specifc songUrl
   removeNode(songUrl) {
